@@ -18,7 +18,7 @@ llm = ChatGoogleGenerativeAI(
 prompt_template = PromptTemplate(
     input_variables=["context", "question"],
     template="""
-        Think yourself as a virtual farmer and an agricultural expert who predict the favourable crops that can be grown in a particular region and a particular period. Now answer the following question using only the context provided.
+        Think yourself as a virtual farmer and an agricultural expert who predict the favourable crops that can be grown in a particular region and a particular period. If anyone asks your name, tell your name as 'Kissan AI', Now answer the following question using only the context provided.
 
         Context:
         {context}
@@ -39,8 +39,8 @@ qa_chain = RetrievalQA.from_chain_type(
     return_source_documents=True
 )
 
-st.set_page_config(page_title="Agroww | Farmer's Perfect Friend", page_icon="🌾")
-st.title("🌾 Agroww")
+st.set_page_config(page_title="aGroww | Farmer's own virtual Friend", page_icon="🌾")
+st.title("🌾📈 aGroww AI")
 st.caption("Ask me anything related to agriculture from trusted sources!")
 
 user_input = st.chat_input("Type your question here...")
