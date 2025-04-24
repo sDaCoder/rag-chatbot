@@ -53,6 +53,7 @@ langchain-mongodb==0.6.0
 langchain-text-splitters==0.3.8
 langsmith==0.3.24
 lark==1.2.2
+Markdown==3.8
 MarkupSafe==3.0.2
 marshmallow==3.26.1
 multidict==6.3.2
