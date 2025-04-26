@@ -9,7 +9,7 @@ Kissan AI is a virtual farmer and agricultural expert who predicts the favourabl
 
 ## Installation
 
-Firstly, clone the repository, then type this command in your terminal
+Firstly, clone the repository, create a virtual environment and then type this command in your terminal
 
 ```bash
 pip install -r requirements.txt
